@@ -1,0 +1,20 @@
+package Steps;
+
+import org.openqa.selenium.WebDriver;
+
+import Utils.TestController;
+
+public class LoginpageSteps {
+	
+	
+	public WebDriver driver;
+	TestController tc;
+	
+	public LoginpageSteps(TestController tc)
+	{
+		this.tc=tc;
+	}
+	
+    
+
+}

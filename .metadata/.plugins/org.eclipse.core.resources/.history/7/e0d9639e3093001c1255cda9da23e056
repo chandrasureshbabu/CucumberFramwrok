@@ -1,0 +1,10 @@
+package CucumberOptions;
+
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(features = "src\\test\\java\\Features\\BugzillaLogin_usingDifferentLogins.feature",glue = {"Steps"},
+monochrome = true,dryRun = false)
+
+public class TestNGTestRunner {
+
+}

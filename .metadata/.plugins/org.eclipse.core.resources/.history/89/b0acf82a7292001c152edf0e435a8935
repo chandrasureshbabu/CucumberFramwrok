@@ -1,0 +1,49 @@
+package Managers;
+
+import org.openqa.selenium.WebDriver;
+
+import Pageobjects.EnterBugPage;
+import Pageobjects.HomePage;
+import Pageobjects.LoginPage;
+
+public class PageObjectManager {
+	
+	public WebDriver driver;
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public HomePage homepage;
+	
+	public LoginPage loginPage;
+	
+	public EnterBugPage enterBugPage;
+	
+	
+
+	public HomePage getHomepage() {
+		return homepage;
+	}
+
+	
+
+	public LoginPage getLoginPage() {
+		return loginPage;
+	}
+
+	
+
+	public EnterBugPage getEnterBugPage() {
+		return enterBugPage;
+	}
+
+	
+	
+	
+
+}

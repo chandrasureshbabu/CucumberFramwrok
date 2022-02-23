@@ -1,0 +1,24 @@
+package Steps;
+
+import org.openqa.selenium.WebDriver;
+
+import Utils.TestController;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+
+
+public class WelcomeToBugZillaPageSteps {
+	
+	public TestController tc;
+	
+	public WelcomeToBugZillaPageSteps(TestController tc)
+	{
+		this.tc=tc;
+	}
+	
+	
+	
+
+}

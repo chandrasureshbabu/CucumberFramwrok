@@ -1,0 +1,13 @@
+package Steps;
+
+import org.openqa.selenium.WebDriver;
+
+import io.cucumber.java.Scenario;
+
+public class HomepageSteps {
+	
+	
+	public WebDriver driver;
+	Scenario sc;
+
+}

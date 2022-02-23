@@ -1,0 +1,14 @@
+package Pageobjects;
+
+import org.openqa.selenium.WebDriver;
+
+public class WelcomeToBugZillaPage {
+	
+	public WebDriver driver;
+	
+	public WelcomeToBugZillaPage(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+}

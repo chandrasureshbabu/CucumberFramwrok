@@ -1,0 +1,18 @@
+package Utils;
+
+import org.openqa.selenium.WebDriver;
+
+import Managers.PageObjectManager;
+
+public class TestController {
+
+	
+	public WebDriver driver;
+	
+	public PageObjectManager dc;
+	
+	public TestController()
+	{
+		dc= new PageObjectManager(driver);
+	}
+}

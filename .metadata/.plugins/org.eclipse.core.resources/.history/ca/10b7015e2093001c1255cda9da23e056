@@ -1,0 +1,56 @@
+package Steps;
+
+import org.openqa.selenium.WebDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+
+
+public class WelcomeToBugZillaPage {
+	
+	
+	//public WebDriver driver;
+	
+	
+	/*
+	 * @Given("user is on Home page") public void user_is_on_home_page() { // Write
+	 * code here that turns the phrase above into concrete actions throw new
+	 * io.cucumber.java.PendingException(); }
+	 */
+
+	/*
+	 * @When("user clicks on EnterBug link") public void
+	 * user_clicks_on_enter_bug_link() { // Write code here that turns the phrase
+	 * above into concrete actions throw new io.cucumber.java.PendingException(); }
+	 */
+
+	/*
+	 * @Then("user lands on the Login page") public void
+	 * user_lands_on_the_login_page() { // Write code here that turns the phrase
+	 * above into concrete actions throw new io.cucumber.java.PendingException(); }
+	 */
+
+	/*
+	 * @Then("user enters valid username and password") public void
+	 * user_enters_valid_username_and_password() { // Write code here that turns the
+	 * phrase above into concrete actions throw new
+	 * io.cucumber.java.PendingException(); }
+	 */
+
+	/*
+	 * @Then("clicks on login") public void clicks_on_login() { // Write code here
+	 * that turns the phrase above into concrete actions throw new
+	 * io.cucumber.java.PendingException(); }
+	 */
+
+	/*
+	 * @Then("user should land on EnterBugPage") public void
+	 * user_should_land_on_enter_bug_page() { // Write code here that turns the
+	 * phrase above into concrete actions throw new
+	 * io.cucumber.java.PendingException(); }
+	 */
+	
+
+}

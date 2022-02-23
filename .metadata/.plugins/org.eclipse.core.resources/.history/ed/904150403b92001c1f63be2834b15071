@@ -1,0 +1,30 @@
+package Steps;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import Utils.TestController;
+import io.cucumber.java.en.Given;
+
+public class HomepageSteps {
+	
+	
+	public WebDriver driver;
+	TestController tc;
+	
+	public HomepageSteps(TestController tc)
+	{
+		this.tc=tc;
+	}
+	
+	@Given("user is on Home page")
+	public void user_is_on_home_page() {
+	   System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver");
+	   tc.driver= new ChromeDriver();
+	   driver.get("http://localhost:5001/");
+	   driver.manage().window().maximize();
+	}
+	
+	
+
+}

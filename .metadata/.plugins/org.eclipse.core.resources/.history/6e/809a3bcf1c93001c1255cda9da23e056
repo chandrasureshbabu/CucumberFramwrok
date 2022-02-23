@@ -1,0 +1,43 @@
+package Pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class HomePage {
+
+	
+	
+	public WebDriver driver;
+	
+	
+	public HomePage(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	
+	By EnterABug= By.id("enter_bug");
+	By ForgotPassword=By.xpath("//*[@id='header']//descendant::ul[1]/li[10]/a");
+	
+	
+	public void enterABug()
+	{
+		driver.findElement(EnterABug).click();
+		//return new LoginPage(driver);
+	}
+	
+	public boolean  enterAbugDisplayed()
+	{
+		if(driver.findElement(EnterABug).isDisplayed())
+			return true;
+		else
+			return false;
+	}
+	
+	public boolean  _homePage_ForgotPasswordLinkIsDisplayed()
+	{
+		boolean LinkDisplayed=driver.findElement(ForgotPassword).isDisplayed();
+		
+		return LinkDisplayed;
+	}
+}
