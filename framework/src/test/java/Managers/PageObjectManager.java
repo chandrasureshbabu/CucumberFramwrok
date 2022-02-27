@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import Pageobjects.EnterBugPage;
 import Pageobjects.HomePage;
+import Pageobjects.InvalidUsernameOrPasswordPage;
 import Pageobjects.LoginPage;
 import Pageobjects.WelcomeToBugZillaPage;
 
@@ -18,8 +19,17 @@ public class PageObjectManager {
 	public EnterBugPage enterBugPage;
 	
 	public WelcomeToBugZillaPage welcomeToBugzillaPage;
+	
+	public InvalidUsernameOrPasswordPage invalidUsernameOrPasswordPage;
 
 	
+	
+
+
+
+
+
+
 	public PageObjectManager(WebDriver driver)
 	{
 		this.driver=driver;
@@ -46,8 +56,6 @@ public class PageObjectManager {
 	  return loginPage; }
 	 
 
-	
-
 	public EnterBugPage getEnterBugPage() {
 		
 	    enterBugPage= new EnterBugPage(driver);
@@ -59,6 +67,13 @@ public class PageObjectManager {
 		welcomeToBugzillaPage= new WelcomeToBugZillaPage(driver);
 		
 		return welcomeToBugzillaPage;
+	}
+	
+	public InvalidUsernameOrPasswordPage getInvalidUsernameOrPasswordPage() {
+		
+		invalidUsernameOrPasswordPage = new InvalidUsernameOrPasswordPage(driver);
+		
+		return invalidUsernameOrPasswordPage;
 	}
 
 

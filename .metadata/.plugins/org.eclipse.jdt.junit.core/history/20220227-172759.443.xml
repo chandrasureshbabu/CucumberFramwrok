@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="framework" tests="44" started="44" failures="0" errors="6" ignored="0">
+  <testsuite name="CucumberOptions.TestRunner" time="123.57">
+    <testsuite name="Login to Bugzilla using Different Set of Logins" time="123.57">
+      <testsuite name="SignTo to Bugzilla #1" time="28.077">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="SignTo to Bugzilla #1" time="3.808"/>
+        <testcase name="Click on LoginLink on Homepage" classname="SignTo to Bugzilla #1" time="5.113"/>
+        <testcase name="username and Password fields appears on Homepage" classname="SignTo to Bugzilla #1" time="0.032"/>
+        <testcase name="Enter username chandra_nemani@hotmail.com Password and Password1 click Login" classname="SignTo to Bugzilla #1" time="11.608"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="SignTo to Bugzilla #1" time="3.083"/>
+        <testcase name="Click on Logout link" classname="SignTo to Bugzilla #1" time="4.359"/>
+        <testcase name="Redirected to Homepage" classname="SignTo to Bugzilla #1" time="0.036"/>
+      </testsuite>
+      <testsuite name="SignTo to Bugzilla #2" time="26.72">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="SignTo to Bugzilla #2" time="2.47"/>
+        <testcase name="Click on LoginLink on Homepage" classname="SignTo to Bugzilla #2" time="5.104"/>
+        <testcase name="username and Password fields appears on Homepage" classname="SignTo to Bugzilla #2" time="0.03"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password3 click Login" classname="SignTo to Bugzilla #2" time="11.58"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="SignTo to Bugzilla #2" time="3.086"/>
+        <testcase name="Click on Logout link" classname="SignTo to Bugzilla #2" time="4.393"/>
+        <testcase name="Redirected to Homepage" classname="SignTo to Bugzilla #2" time="0.036"/>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #1" time="22.486" incomplete="true">
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='header']//descendant::ul[1]/li[10]/a"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HPOMEN15', ip: '192.168.0.104', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f71873b425cac2d4e89f4e80e25b475d, findElement {using=xpath, value=//*[@id='header']//descendant::ul[1]/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65034/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f71873b425cac2d4e89f4e80e25b475d&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;
+	at Pageobjects.WelcomeToBugZillaPage._userIsOn_WelcomeToBugZillaPage(WelcomeToBugZillaPage.java:23)&#13;
+	at Steps.WelcomeToBugZillaPageSteps.users_should_be_able_to_login_to_bugzilla_successfully(WelcomeToBugZillaPageSteps.java:24)&#13;
+	at ✽.Users should be able to login to Bugzilla successfully(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:22)&#13;
+&#13;
+</error>
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #1" time="2.482"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #1" time="5.097"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #1" time="0.033"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password click Login" classname="Validate to Bugzilla Login #1" time="11.617"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="Validate to Bugzilla Login #1" time="3.039">
+          <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='header']//descendant::ul[1]/li[10]/a"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HPOMEN15', ip: '192.168.0.104', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f71873b425cac2d4e89f4e80e25b475d, findElement {using=xpath, value=//*[@id='header']//descendant::ul[1]/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65034/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f71873b425cac2d4e89f4e80e25b475d&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;
+	at Pageobjects.WelcomeToBugZillaPage._userIsOn_WelcomeToBugZillaPage(WelcomeToBugZillaPage.java:23)&#13;
+	at Steps.WelcomeToBugZillaPageSteps.users_should_be_able_to_login_to_bugzilla_successfully(WelcomeToBugZillaPageSteps.java:24)&#13;
+	at ✽.Users should be able to login to Bugzilla successfully(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:22)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #1" time="0.003">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #1" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #1" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Click on Logout link" classname="Validate to Bugzilla Login #1" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Redirected to Homepage" classname="Validate to Bugzilla Login #1" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #2" time="22.602" incomplete="true">
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='bugzilla-body']//td"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HPOMEN15', ip: '192.168.0.104', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d5e50640460319ebc75eea6b47a26c0, findElement {using=xpath, value=//*[@id='bugzilla-body']//td}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65084/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d5e50640460319ebc75eea6b47a26c0&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;
+	at Pageobjects.InvalidUsernameOrPasswordPage.RedirectedErrorpage(InvalidUsernameOrPasswordPage.java:24)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.or_else_redirected_to_inavalid_usernameand_passwordpage(InvalidUsernameOrPasswordPageSteps.java:23)&#13;
+	at ✽.or Else redirected to InavalidUsernameandPasswordpage(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</error>
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #2" time="2.558"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #2" time="5.104"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #2" time="0.033"/>
+        <testcase name="Enter username chandra_nemani@hotmail.com Password and Password1 click Login" classname="Validate to Bugzilla Login #2" time="11.609"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="Validate to Bugzilla Login #2" time="3.065"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #2" time="0.02">
+          <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='bugzilla-body']//td"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HPOMEN15', ip: '192.168.0.104', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d5e50640460319ebc75eea6b47a26c0, findElement {using=xpath, value=//*[@id='bugzilla-body']//td}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65084/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d5e50640460319ebc75eea6b47a26c0&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;
+	at Pageobjects.InvalidUsernameOrPasswordPage.RedirectedErrorpage(InvalidUsernameOrPasswordPage.java:24)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.or_else_redirected_to_inavalid_usernameand_passwordpage(InvalidUsernameOrPasswordPageSteps.java:23)&#13;
+	at ✽.or Else redirected to InavalidUsernameandPasswordpage(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #2" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Click on Logout link" classname="Validate to Bugzilla Login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Redirected to Homepage" classname="Validate to Bugzilla Login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #3" time="22.575" incomplete="true">
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='bugzilla-body']//td"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HPOMEN15', ip: '192.168.0.104', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4cc45afcefb8643f91f89e3ca962095, findElement {using=xpath, value=//*[@id='bugzilla-body']//td}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65133/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4cc45afcefb8643f91f89e3ca962095&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;
+	at Pageobjects.InvalidUsernameOrPasswordPage.RedirectedErrorpage(InvalidUsernameOrPasswordPage.java:24)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.or_else_redirected_to_inavalid_usernameand_passwordpage(InvalidUsernameOrPasswordPageSteps.java:23)&#13;
+	at ✽.or Else redirected to InavalidUsernameandPasswordpage(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</error>
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #3" time="2.519"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #3" time="5.095"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #3" time="0.036"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password3 click Login" classname="Validate to Bugzilla Login #3" time="11.637"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="Validate to Bugzilla Login #3" time="3.066"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #3" time="0.019">
+          <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='bugzilla-body']//td"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HPOMEN15', ip: '192.168.0.104', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4cc45afcefb8643f91f89e3ca962095, findElement {using=xpath, value=//*[@id='bugzilla-body']//td}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65133/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4cc45afcefb8643f91f89e3ca962095&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;
+	at Pageobjects.InvalidUsernameOrPasswordPage.RedirectedErrorpage(InvalidUsernameOrPasswordPage.java:24)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.or_else_redirected_to_inavalid_usernameand_passwordpage(InvalidUsernameOrPasswordPageSteps.java:23)&#13;
+	at ✽.or Else redirected to InavalidUsernameandPasswordpage(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #3" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #3" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Click on Logout link" classname="Validate to Bugzilla Login #3" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Redirected to Homepage" classname="Validate to Bugzilla Login #3" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

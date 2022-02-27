@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="framework" tests="41" started="41" failures="6" errors="0" ignored="0">
+  <testsuite name="CucumberOptions.TestRunner" time="114.285">
+    <testsuite name="Login to Bugzilla using Different Set of Logins" time="114.285">
+      <testsuite name="SignTo to Bugzilla #1" time="27.993">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="SignTo to Bugzilla #1" time="3.681"/>
+        <testcase name="Click on LoginLink on Homepage" classname="SignTo to Bugzilla #1" time="5.107"/>
+        <testcase name="username and Password fields appears on Homepage" classname="SignTo to Bugzilla #1" time="0.032"/>
+        <testcase name="Enter username chandra_nemani@hotmail.com Password and Password1 click Login" classname="SignTo to Bugzilla #1" time="11.603"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="SignTo to Bugzilla #1" time="3.118"/>
+        <testcase name="Click on Logout link" classname="SignTo to Bugzilla #1" time="4.381"/>
+        <testcase name="Redirected to Homepage" classname="SignTo to Bugzilla #1" time="0.039"/>
+      </testsuite>
+      <testsuite name="SignTo to Bugzilla #2" time="26.644">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="SignTo to Bugzilla #2" time="2.439"/>
+        <testcase name="Click on LoginLink on Homepage" classname="SignTo to Bugzilla #2" time="5.098"/>
+        <testcase name="username and Password fields appears on Homepage" classname="SignTo to Bugzilla #2" time="0.029"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password3 click Login" classname="SignTo to Bugzilla #2" time="11.59"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="SignTo to Bugzilla #2" time="3.07"/>
+        <testcase name="Click on Logout link" classname="SignTo to Bugzilla #2" time="4.364"/>
+        <testcase name="Redirected to Homepage" classname="SignTo to Bugzilla #2" time="0.038"/>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #1" time="19.662" incomplete="true">
+        <failure>java.lang.AssertionError: expected same:&lt;Bugzilla – Invalid Username Or Password&gt; was not:&lt;Bugzilla – Invalid Username Or Password&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotSame(Assert.java:737)&#13;
+	at org.junit.Assert.assertSame(Assert.java:680)&#13;
+	at org.junit.Assert.assertSame(Assert.java:691)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.page_title_should(InvalidUsernameOrPasswordPageSteps.java:30)&#13;
+	at ✽.Page title should "Bugzilla – Invalid Username Or Password"(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</failure>
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #1" time="2.598"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #1" time="5.097"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #1" time="0.031"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password click Login" classname="Validate to Bugzilla Login #1" time="11.65"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #1" time="0.042"/>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #1" time="0.042">
+          <failure>java.lang.AssertionError: expected same:&lt;Bugzilla – Invalid Username Or Password&gt; was not:&lt;Bugzilla – Invalid Username Or Password&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotSame(Assert.java:737)&#13;
+	at org.junit.Assert.assertSame(Assert.java:680)&#13;
+	at org.junit.Assert.assertSame(Assert.java:691)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.page_title_should(InvalidUsernameOrPasswordPageSteps.java:30)&#13;
+	at ✽.Page title should "Bugzilla – Invalid Username Or Password"(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</failure>
+        </testcase>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #1" time="0.004">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Click on Logout link" classname="Validate to Bugzilla Login #1" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Redirected to Homepage" classname="Validate to Bugzilla Login #1" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #2" time="19.403" incomplete="true">
+        <failure>java.lang.AssertionError: expected same:&lt;Bugzilla – Invalid Username Or Password&gt; was not:&lt;Bugzilla – Invalid Username Or Password&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotSame(Assert.java:737)&#13;
+	at org.junit.Assert.assertSame(Assert.java:680)&#13;
+	at org.junit.Assert.assertSame(Assert.java:691)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.page_title_should(InvalidUsernameOrPasswordPageSteps.java:30)&#13;
+	at ✽.Page title should "Bugzilla – Invalid Username Or Password"(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</failure>
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #2" time="2.423"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #2" time="5.1"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #2" time="0.03"/>
+        <testcase name="Enter username chandra_nemani@hotmail.com Password and Password4 click Login" classname="Validate to Bugzilla Login #2" time="11.571"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #2" time="0.04"/>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #2" time="0.047">
+          <failure>java.lang.AssertionError: expected same:&lt;Bugzilla – Invalid Username Or Password&gt; was not:&lt;Bugzilla – Invalid Username Or Password&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotSame(Assert.java:737)&#13;
+	at org.junit.Assert.assertSame(Assert.java:680)&#13;
+	at org.junit.Assert.assertSame(Assert.java:691)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.page_title_should(InvalidUsernameOrPasswordPageSteps.java:30)&#13;
+	at ✽.Page title should "Bugzilla – Invalid Username Or Password"(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</failure>
+        </testcase>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Click on Logout link" classname="Validate to Bugzilla Login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Redirected to Homepage" classname="Validate to Bugzilla Login #2" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #3" time="19.462" incomplete="true">
+        <failure>java.lang.AssertionError: expected same:&lt;Bugzilla – Invalid Username Or Password&gt; was not:&lt;Bugzilla – Invalid Username Or Password&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotSame(Assert.java:737)&#13;
+	at org.junit.Assert.assertSame(Assert.java:680)&#13;
+	at org.junit.Assert.assertSame(Assert.java:691)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.page_title_should(InvalidUsernameOrPasswordPageSteps.java:30)&#13;
+	at ✽.Page title should "Bugzilla – Invalid Username Or Password"(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</failure>
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #3" time="2.432"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #3" time="5.105"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #3" time="0.028"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password5 click Login" classname="Validate to Bugzilla Login #3" time="11.63"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #3" time="0.036"/>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #3" time="0.037">
+          <failure>java.lang.AssertionError: expected same:&lt;Bugzilla – Invalid Username Or Password&gt; was not:&lt;Bugzilla – Invalid Username Or Password&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotSame(Assert.java:737)&#13;
+	at org.junit.Assert.assertSame(Assert.java:680)&#13;
+	at org.junit.Assert.assertSame(Assert.java:691)&#13;
+	at Steps.InvalidUsernameOrPasswordPageSteps.page_title_should(InvalidUsernameOrPasswordPageSteps.java:30)&#13;
+	at ✽.Page title should "Bugzilla – Invalid Username Or Password"(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/BugzillaLogin_usingDifferentLogins.feature:23)&#13;
+&#13;
+</failure>
+        </testcase>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #3" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Click on Logout link" classname="Validate to Bugzilla Login #3" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Redirected to Homepage" classname="Validate to Bugzilla Login #3" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

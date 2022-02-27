@@ -1,0 +1,16 @@
+package Pageobjects;
+
+import org.openqa.selenium.WebDriver;
+
+public class InvalidUsernameOrPasswordPage {
+	
+	
+	public WebDriver driver;
+	
+	
+	public  InvalidUsernameOrPasswordPage(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+}

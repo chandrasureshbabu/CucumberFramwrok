@@ -2,42 +2,26 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-21T22:03:34 IST" name="Default suite" finished-at="2022-02-21T22:04:02 IST" duration-ms="28381">
+  <suite started-at="2022-02-27T16:39:11 IST" name="Default suite" finished-at="2022-02-27T16:39:40 IST" duration-ms="29198">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGTestRunner@29215f06]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGTestRunner@791f145a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-02-21T22:03:34 IST" name="Default test" finished-at="2022-02-21T22:04:02 IST" duration-ms="28381">
+    <test started-at="2022-02-27T16:39:11 IST" name="Default test" finished-at="2022-02-27T16:39:40 IST" duration-ms="29198">
       <class name="CucumberOptions.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.TestNGTestRunner@29215f06]" started-at="2022-02-21T22:03:34 IST" name="setUpClass" finished-at="2022-02-21T22:03:34 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.TestNGTestRunner@791f145a]" started-at="2022-02-27T16:39:11 IST" name="setUpClass" finished-at="2022-02-27T16:39:11 IST" duration-ms="319" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5aac4250]]>
+                <![CDATA[org.testng.TestRunner@2dd29a59]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGTestRunner@29215f06]" started-at="2022-02-21T22:03:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-21T22:04:01 IST" duration-ms="27141" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["SignTo to Bugzilla"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login to Bugzilla using Different Set of Logins]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGTestRunner@29215f06]" started-at="2022-02-21T22:03:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-21T22:03:44 IST" duration-ms="10284" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGTestRunner@791f145a]" started-at="2022-02-27T16:39:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T16:39:23 IST" duration-ms="11740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGTestRunner@29215f06]" started-at="2022-02-21T22:03:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-21T22:04:02 IST" duration-ms="28135" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGTestRunner@791f145a]" started-at="2022-02-27T16:39:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T16:39:40 IST" duration-ms="28824" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +53,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestNGTestRunner@29215f06]" started-at="2022-02-21T22:04:02 IST" name="tearDownClass" finished-at="2022-02-21T22:04:02 IST" duration-ms="5" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGTestRunner@791f145a]" started-at="2022-02-27T16:39:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T16:39:40 IST" duration-ms="28793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["SignTo to Bugzilla"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to Bugzilla using Different Set of Logins]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestNGTestRunner@791f145a]" started-at="2022-02-27T16:39:40 IST" name="tearDownClass" finished-at="2022-02-27T16:39:40 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

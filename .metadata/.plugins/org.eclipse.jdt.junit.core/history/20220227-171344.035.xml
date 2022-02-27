@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="framework" tests="34" started="34" failures="0" errors="4" ignored="0">
+  <testsuite name="CucumberOptions.TestRunner" time="0.249">
+    <testsuite name="Login to Bugzilla using Different Set of Logins" time="0.249">
+      <testsuite name="SignTo to Bugzilla #1" time="0.036">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="SignTo to Bugzilla #1" time="0.006"/>
+        <testcase name="Click on LoginLink on Homepage" classname="SignTo to Bugzilla #1" time="0.001"/>
+        <testcase name="username and Password fields appears on Homepage" classname="SignTo to Bugzilla #1" time="0.002"/>
+        <testcase name="Enter username chandra_nemani@hotmail.com Password and Password1 click Login" classname="SignTo to Bugzilla #1" time="0.001"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="SignTo to Bugzilla #1" time="0.001"/>
+        <testcase name="Click on Logout link" classname="SignTo to Bugzilla #1" time="0.0"/>
+        <testcase name="Redirected to Homepage" classname="SignTo to Bugzilla #1" time="0.0"/>
+      </testsuite>
+      <testsuite name="SignTo to Bugzilla #2" time="0.017">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="SignTo to Bugzilla #2" time="0.001"/>
+        <testcase name="Click on LoginLink on Homepage" classname="SignTo to Bugzilla #2" time="0.0"/>
+        <testcase name="username and Password fields appears on Homepage" classname="SignTo to Bugzilla #2" time="0.0"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password3 click Login" classname="SignTo to Bugzilla #2" time="0.0"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="SignTo to Bugzilla #2" time="0.001"/>
+        <testcase name="Click on Logout link" classname="SignTo to Bugzilla #2" time="0.0"/>
+        <testcase name="Redirected to Homepage" classname="SignTo to Bugzilla #2" time="0.0"/>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #1" time="0.039" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'or Else redirected to InavalidUsernameandPasswordpage' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("or Else redirected to InavalidUsernameandPasswordpage")
+public void or_else_redirected_to_inavalid_usernameand_passwordpage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Page title should {string}")
+public void page_title_should(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("ErrorMessage should be {string}")
+public void error_message_should_be(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #1" time="0.001"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #1" time="0.001"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #1" time="0.001"/>
+        <testcase name="Enter username chandra_nemani@hotmail.com Password and Password1 click Login" classname="Validate to Bugzilla Login #1" time="0.001"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="Validate to Bugzilla Login #1" time="0.001"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #1" time="0.017">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'or Else redirected to InavalidUsernameandPasswordpage' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("or Else redirected to InavalidUsernameandPasswordpage")
+public void or_else_redirected_to_inavalid_usernameand_passwordpage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Page title should {string}")
+public void page_title_should(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("ErrorMessage should be {string}")
+public void error_message_should_be(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #1" time="0.003">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #1" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Click on Logout link" classname="Validate to Bugzilla Login #1" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Redirected to Homepage" classname="Validate to Bugzilla Login #1" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #2" time="0.015" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'or Else redirected to InavalidUsernameandPasswordpage' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("or Else redirected to InavalidUsernameandPasswordpage")
+public void or_else_redirected_to_inavalid_usernameand_passwordpage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Page title should {string}")
+public void page_title_should(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("ErrorMessage should be {string}")
+public void error_message_should_be(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #2" time="0.0"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #2" time="0.0"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #2" time="0.0"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password3 click Login" classname="Validate to Bugzilla Login #2" time="0.0"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="Validate to Bugzilla Login #2" time="0.0"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #2" time="0.001">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'or Else redirected to InavalidUsernameandPasswordpage' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("or Else redirected to InavalidUsernameandPasswordpage")
+public void or_else_redirected_to_inavalid_usernameand_passwordpage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Page title should {string}")
+public void page_title_should(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("ErrorMessage should be {string}")
+public void error_message_should_be(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Click on Logout link" classname="Validate to Bugzilla Login #2" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Redirected to Homepage" classname="Validate to Bugzilla Login #2" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
