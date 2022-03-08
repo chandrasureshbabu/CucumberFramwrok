@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="framework" tests="35" started="35" failures="0" errors="0" ignored="0">
+  <testsuite name="CucumberOptions.TestRunner" time="115.3">
+    <testsuite name="Login to Bugzilla using Different Set of Logins" time="115.3">
+      <testsuite name="SignTo to Bugzilla #1" time="28.611">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="SignTo to Bugzilla #1" time="4.148"/>
+        <testcase name="Click on LoginLink on Homepage" classname="SignTo to Bugzilla #1" time="5.129"/>
+        <testcase name="username and Password fields appears on Homepage" classname="SignTo to Bugzilla #1" time="0.038"/>
+        <testcase name="Enter username chandra_nemani@hotmail.com Password and Password1 click Login" classname="SignTo to Bugzilla #1" time="11.669"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="SignTo to Bugzilla #1" time="3.082"/>
+        <testcase name="Click on Logout link" classname="SignTo to Bugzilla #1" time="4.474"/>
+        <testcase name="Redirected to Homepage" classname="SignTo to Bugzilla #1" time="0.04"/>
+      </testsuite>
+      <testsuite name="SignTo to Bugzilla #2" time="27.003">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="SignTo to Bugzilla #2" time="2.647"/>
+        <testcase name="Click on LoginLink on Homepage" classname="SignTo to Bugzilla #2" time="5.112"/>
+        <testcase name="username and Password fields appears on Homepage" classname="SignTo to Bugzilla #2" time="0.036"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password3 click Login" classname="SignTo to Bugzilla #2" time="11.708"/>
+        <testcase name="Users should be able to login to Bugzilla successfully" classname="SignTo to Bugzilla #2" time="3.082"/>
+        <testcase name="Click on Logout link" classname="SignTo to Bugzilla #2" time="4.363"/>
+        <testcase name="Redirected to Homepage" classname="SignTo to Bugzilla #2" time="0.037"/>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #1" time="19.478">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #1" time="2.534"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #1" time="5.109"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #1" time="0.028"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password click Login" classname="Validate to Bugzilla Login #1" time="11.673"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #1" time="0.045"/>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #1" time="0.037"/>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #1" time="0.034"/>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #2" time="19.472">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #2" time="2.52"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #2" time="5.106"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #2" time="0.033"/>
+        <testcase name="Enter username chandra_nemani@hotmail.com Password and Password4 click Login" classname="Validate to Bugzilla Login #2" time="11.698"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #2" time="0.047"/>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #2" time="0.031"/>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #2" time="0.031"/>
+      </testsuite>
+      <testsuite name="Validate to Bugzilla Login #3" time="19.532">
+        <testcase name="Open Bugzilla HomePage in the Browser" classname="Validate to Bugzilla Login #3" time="2.533"/>
+        <testcase name="Click on LoginLink on Homepage" classname="Validate to Bugzilla Login #3" time="5.129"/>
+        <testcase name="username and Password fields appears on Homepage" classname="Validate to Bugzilla Login #3" time="0.031"/>
+        <testcase name="Enter username nemani.sureshbabu@gmail.com Password and Password5 click Login" classname="Validate to Bugzilla Login #3" time="11.714"/>
+        <testcase name="or Else redirected to InavalidUsernameandPasswordpage" classname="Validate to Bugzilla Login #3" time="0.046"/>
+        <testcase name="Page title should &quot;Bugzilla – Invalid Username Or Password&quot;" classname="Validate to Bugzilla Login #3" time="0.032"/>
+        <testcase name="ErrorMessage should be &quot;The username or password you entered is not valid.&quot;" classname="Validate to Bugzilla Login #3" time="0.047"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
