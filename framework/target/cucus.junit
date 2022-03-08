@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="108.476">
-<testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla" time="25.902">
-<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="124.182">
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla" time="39.667">
+        <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
 And Enter username chandra_nemani@hotmail.com Password and Password1 click Login.passed
@@ -9,9 +9,9 @@ Then Users should be able to login to Bugzilla successfully.................pass
 And Click on Logout link....................................................passed
 Then Redirected to Homepage.................................................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla 2" time="25.78">
-<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+    </testcase>
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla 2" time="27.129">
+        <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
 And Enter username nemani.sureshbabu@gmail.com Password and Password3 click Login.passed
@@ -19,9 +19,9 @@ Then Users should be able to login to Bugzilla successfully.................pass
 And Click on Logout link....................................................passed
 Then Redirected to Homepage.................................................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login" time="18.878">
-<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+    </testcase>
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login" time="19.482">
+        <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
 And Enter username nemani.sureshbabu@gmail.com Password and Password click Login.passed
@@ -29,9 +29,9 @@ And or Else redirected to InavalidUsernameandPasswordpage...................pass
 And Page title should "Bugzilla – Invalid Username Or Password".............passed
 And ErrorMessage should be "The username or password you entered is not valid.".passed
 ]]></system-out>
-</testcase>
-<testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 2" time="18.897">
-<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+    </testcase>
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 2" time="18.71">
+        <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
 And Enter username chandra_nemani@hotmail.com Password and Password4 click Login.passed
@@ -39,9 +39,9 @@ And or Else redirected to InavalidUsernameandPasswordpage...................pass
 And Page title should "Bugzilla – Invalid Username Or Password".............passed
 And ErrorMessage should be "The username or password you entered is not valid.".passed
 ]]></system-out>
-</testcase>
-<testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 3" time="18.946">
-<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+    </testcase>
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 3" time="18.756">
+        <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
 And Enter username nemani.sureshbabu@gmail.com Password and Password5 click Login.passed
@@ -49,5 +49,5 @@ And or Else redirected to InavalidUsernameandPasswordpage...................pass
 And Page title should "Bugzilla – Invalid Username Or Password".............passed
 And ErrorMessage should be "The username or password you entered is not valid.".passed
 ]]></system-out>
-</testcase>
+    </testcase>
 </testsuite>
