@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="116.186">
-    <testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla" time="29.356">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="116.905">
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla" time="29.653">
         <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
@@ -10,7 +10,7 @@ And Click on Logout link....................................................pass
 Then Redirected to Homepage.................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla 2" time="27.129">
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla 2" time="27.22">
         <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
@@ -20,7 +20,7 @@ And Click on Logout link....................................................pass
 Then Redirected to Homepage.................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login" time="19.598">
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login" time="19.556">
         <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
@@ -30,7 +30,7 @@ And Page title should "Bugzilla – Invalid Username Or Password".............pa
 And ErrorMessage should be "The username or password you entered is not valid.".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 2" time="19.627">
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 2" time="19.976">
         <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
@@ -40,7 +40,7 @@ And Page title should "Bugzilla – Invalid Username Or Password".............pa
 And ErrorMessage should be "The username or password you entered is not valid.".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 3" time="19.997">
+    <testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 3" time="20.045">
         <system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
 When Click on LoginLink on Homepage.........................................passed
 And username and Password fields appears on Homepage........................passed
