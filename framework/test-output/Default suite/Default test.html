@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 27 16:39:11 IST 2022</td>
+<td>Started on:</td><td>Tue Mar 08 21:09:10 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>29 seconds (29198 ms)</td>
+<tr><td>Total time:</td><td>38 seconds (38764 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,138 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate with valid creds", "Optional[Login Page Tests]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;header&apos;]//descendant::ul[1]/li[10]/a&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;HPOMEN15&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b7f89bfc830f52180adbb5c3414f76a, findElement {using=xpath, value=//*[@id=&apos;header&apos;]//descendant::ul[1]/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56564/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b7f89bfc830f52180adbb5c3414f76a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at Pageobjects.WelcomeToBugZillaPage._userIsOn_WelcomeToBugZillaPage(WelcomeToBugZillaPage.java:23)
+	at Steps.WelcomeToBugZillaPageSteps.users_should_be_able_to_login_to_bugzilla_successfully(WelcomeToBugZillaPageSteps.java:24)
+	at ?.Users should be able to login to Bugzilla successfully(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/LoginPageFeatures.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2145365726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2145365726'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;header&apos;]//descendant::ul[1]/li[10]/a&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;HPOMEN15&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b7f89bfc830f52180adbb5c3414f76a, findElement {using=xpath, value=//*[@id=&apos;header&apos;]//descendant::ul[1]/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56564/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b7f89bfc830f52180adbb5c3414f76a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at Pageobjects.WelcomeToBugZillaPage._userIsOn_WelcomeToBugZillaPage(WelcomeToBugZillaPage.java:23)
+	at Steps.WelcomeToBugZillaPageSteps.users_should_be_able_to_login_to_bugzilla_successfully(WelcomeToBugZillaPageSteps.java:24)
+	at ?.Users should be able to login to Bugzilla successfully(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/LoginPageFeatures.feature:13)
+</pre></div></td>
+<td>20</td>
+<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
+<tr>
+<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate with valid creds", "Optional[Login Page Tests]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;header&apos;]//descendant::ul[1]/li[10]/a&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;HPOMEN15&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54c5cb949f2193e2b93145b2330b042f, findElement {using=xpath, value=//*[@id=&apos;header&apos;]//descendant::ul[1]/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56566/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54c5cb949f2193e2b93145b2330b042f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at Pageobjects.WelcomeToBugZillaPage._userIsOn_WelcomeToBugZillaPage(WelcomeToBugZillaPage.java:23)
+	at Steps.WelcomeToBugZillaPageSteps.users_should_be_able_to_login_to_bugzilla_successfully(WelcomeToBugZillaPageSteps.java:24)
+	at ?.Users should be able to login to Bugzilla successfully(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/LoginPageFeatures.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1607883771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1607883771'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;header&apos;]//descendant::ul[1]/li[10]/a&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;HPOMEN15&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54c5cb949f2193e2b93145b2330b042f, findElement {using=xpath, value=//*[@id=&apos;header&apos;]//descendant::ul[1]/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\chand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56566/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54c5cb949f2193e2b93145b2330b042f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at Pageobjects.WelcomeToBugZillaPage._userIsOn_WelcomeToBugZillaPage(WelcomeToBugZillaPage.java:23)
+	at Steps.WelcomeToBugZillaPageSteps.users_should_be_able_to_login_to_bugzilla_successfully(WelcomeToBugZillaPageSteps.java:24)
+	at ?.Users should be able to login to Bugzilla successfully(file:///C:/Users/chand/Selenium%20WorkSpace/framework/src/test/java/Features/LoginPageFeatures.feature:13)
+</pre></div></td>
+<td>20</td>
+<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,19 +207,39 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate to Bugzilla Login", "Optional[Login to Bugzilla using Different Set of Logins]"</td>
+<td></td>
+<td>31</td>
+<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
+<tr>
+<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid username and Password", "Optional[Login Page Tests]"</td>
+<td></td>
+<td>23</td>
+<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
+<tr>
+<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate to Bugzilla Login", "Optional[Login to Bugzilla using Different Set of Logins]"</td>
+<td></td>
+<td>29</td>
+<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
+<tr>
+<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate to Bugzilla Login", "Optional[Login to Bugzilla using Different Set of Logins]"</td>
+<td></td>
+<td>30</td>
+<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
+<tr>
+<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "SignTo to Bugzilla", "Optional[Login to Bugzilla using Different Set of Logins]"</td>
+<td></td>
+<td>38</td>
+<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
+<tr>
+<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "SignTo to Bugzilla", "Optional[Login to Bugzilla using Different Set of Logins]"</td>
+<td></td>
+<td>38</td>
+<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
+<tr>
 <td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Bugzilla sign in from Login page", "Optional[Bugzilla Login Test]"</td>
 <td></td>
-<td>11</td>
-<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
-<tr>
-<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "SignTo to Bugzilla", "Optional[Login to Bugzilla using Different Set of Logins]"</td>
-<td></td>
-<td>28</td>
-<td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
-<tr>
-<td title='CucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: CucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "SignTo to Bugzilla", "Optional[Login to Bugzilla using Different Set of Logins]"</td>
-<td></td>
-<td>28</td>
+<td>23</td>
 <td>CucumberOptions.TestNGTestRunner@791f145a</td></tr>
 </table><p>
 </body>

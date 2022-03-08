@@ -1,28 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.447">
-    <testcase classname="Login Page Tests" name="Login with valid username and Password" time="0.133">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User navigated to Login page of Bugizilla.............................undefined
-Then user enters valid username and password................................skipped
-Then clicks on login........................................................skipped
-Then user should land on EnterBugPage.......................................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Login Page Tests" name="validate with valid creds" time="0.022">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User navigated to Login page of Bugizilla.............................undefined
-And username and Password fields appears on Homepage........................skipped
-And Enter username chandra_nemani@hotmail.com Password and Password1 click Login.skipped
-Then Users should be able to login to Bugzilla successfully.................skipped
-And click on Logout link....................................................skipped
-Then Redirected to Homepage.................................................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Login Page Tests" name="validate with valid creds 2" time="0.006">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User navigated to Login page of Bugizilla.............................undefined
-And username and Password fields appears on Homepage........................skipped
-And Enter username nemani.sureshbabu@gmail.com Password and Password3 click Login.skipped
-Then Users should be able to login to Bugzilla successfully.................skipped
-And click on Logout link....................................................skipped
-Then Redirected to Homepage.................................................skipped
-]]></failure>
-    </testcase>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="108.476">
+<testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla" time="25.902">
+<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+When Click on LoginLink on Homepage.........................................passed
+And username and Password fields appears on Homepage........................passed
+And Enter username chandra_nemani@hotmail.com Password and Password1 click Login.passed
+Then Users should be able to login to Bugzilla successfully.................passed
+And Click on Logout link....................................................passed
+Then Redirected to Homepage.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to Bugzilla using Different Set of Logins" name="SignTo to Bugzilla 2" time="25.78">
+<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+When Click on LoginLink on Homepage.........................................passed
+And username and Password fields appears on Homepage........................passed
+And Enter username nemani.sureshbabu@gmail.com Password and Password3 click Login.passed
+Then Users should be able to login to Bugzilla successfully.................passed
+And Click on Logout link....................................................passed
+Then Redirected to Homepage.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login" time="18.878">
+<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+When Click on LoginLink on Homepage.........................................passed
+And username and Password fields appears on Homepage........................passed
+And Enter username nemani.sureshbabu@gmail.com Password and Password click Login.passed
+And or Else redirected to InavalidUsernameandPasswordpage...................passed
+And Page title should "Bugzilla – Invalid Username Or Password".............passed
+And ErrorMessage should be "The username or password you entered is not valid.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 2" time="18.897">
+<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+When Click on LoginLink on Homepage.........................................passed
+And username and Password fields appears on Homepage........................passed
+And Enter username chandra_nemani@hotmail.com Password and Password4 click Login.passed
+And or Else redirected to InavalidUsernameandPasswordpage...................passed
+And Page title should "Bugzilla – Invalid Username Or Password".............passed
+And ErrorMessage should be "The username or password you entered is not valid.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to Bugzilla using Different Set of Logins" name="Validate to Bugzilla Login 3" time="18.946">
+<system-out><![CDATA[Given Open Bugzilla HomePage in the Browser.................................passed
+When Click on LoginLink on Homepage.........................................passed
+And username and Password fields appears on Homepage........................passed
+And Enter username nemani.sureshbabu@gmail.com Password and Password5 click Login.passed
+And or Else redirected to InavalidUsernameandPasswordpage...................passed
+And Page title should "Bugzilla – Invalid Username Or Password".............passed
+And ErrorMessage should be "The username or password you entered is not valid.".passed
+]]></system-out>
+</testcase>
 </testsuite>

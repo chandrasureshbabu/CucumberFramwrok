@@ -38,8 +38,8 @@ public class LoginpageSteps {
 	    	System.out.println("Not navigated to Login page");
 	    }
 	}
-	@And("^Enter username (.+) Password and (.+) click Login$")
-    public void enter_username_password_and_click_login(String username, String password) throws Throwable {
+	@And("^enter username (.+) Password and (.+) click Login$")
+    public void Enter_username_password_and_click_login(String username, String password) throws Throwable {
         tc.dc.getLoginPage().enterCreds(username, password);
     }
 	
