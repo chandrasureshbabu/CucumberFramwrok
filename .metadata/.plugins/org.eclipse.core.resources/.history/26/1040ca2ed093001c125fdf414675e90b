@@ -1,5 +1,0 @@
-browser=Chrome
-QAUrl=http://localhost:5001/
-QA1Uurl=http://localhost:5001/index.cgi?logout=1
-Browser2=Firefox
-Browser3=Edge

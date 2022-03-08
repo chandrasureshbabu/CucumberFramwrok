@@ -1,9 +1,0 @@
-package Utils;
-
-import org.openqa.selenium.WebDriver;
-
-public class TestController {
-
-	
-	public WebDriver driver;
-}

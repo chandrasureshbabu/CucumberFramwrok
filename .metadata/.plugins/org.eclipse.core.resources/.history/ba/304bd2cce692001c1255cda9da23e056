@@ -1,3 +1,0 @@
-Browser1=chrome
-QAUrl=http://localhost:5001/
-QA1Uurl=http://localhost:5001/index.cgi?logout=1

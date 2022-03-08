@@ -1,38 +1,8 @@
-io.cucumber.junit.UndefinedStepException: The step 'Open Bugzilla HomePage in the Browser' and 6 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
+io.cucumber.junit.UndefinedStepException: The step 'User navigated to Login page of Bugizilla' is undefined.
+You can implement this step using the snippet(s) below:
 
-@Given("Open Bugzilla HomePage in the Browser")
-public void open_bugzilla_home_page_in_the_browser() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Click on LoginLink on Homepage")
-public void click_on_login_link_on_homepage() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("username and Password fields appears on Homepage")
-public void username_and_password_fields_appears_on_homepage() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Enter chandra_nemani@hotmail.com and Password1  ,Clicks Login")
-public void enter_chandra_nemani_hotmail_com_and_password1_clicks_login() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("Users should be able to login to Bugzilla successfully")
-public void users_should_be_able_to_login_to_bugzilla_successfully() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("Click on Logout link")
-public void click_on_logout_link() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("Redirected to Homepage")
-public void redirected_to_homepage() {
+@Given("User navigated to Login page of Bugizilla")
+public void user_navigated_to_login_page_of_bugizilla() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }

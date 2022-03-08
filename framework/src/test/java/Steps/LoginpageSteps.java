@@ -1,10 +1,9 @@
 package Steps;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-
-import Pageobjects.LoginPage;
 import Utils.TestController;
+import io.cucumber.java.PendingException;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 public class LoginpageSteps {
@@ -38,6 +37,15 @@ public class LoginpageSteps {
 	    {
 	    	System.out.println("Not navigated to Login page");
 	    }
+	}
+	@And("^Enter username (.+) Password and (.+) click Login$")
+    public void enter_username_password_and_click_login(String username, String password) throws Throwable {
+        tc.dc.getLoginPage().enterCreds(username, password);
+    }
+	
+	@Given("User navigated to Login page of Bugizilla")
+	public void user_navigated_to_login_page_of_bugizilla() {
+	   tc.dc.getHomepage().enterABug();
 	}
 	
 	@Then("user enters valid username and password")

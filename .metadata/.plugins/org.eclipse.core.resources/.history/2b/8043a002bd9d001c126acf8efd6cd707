@@ -1,0 +1,10 @@
+Feature: Login Page Tests
+
+Background: 
+Given User navigated to Login page of Bugizilla
+
+
+Scenario: 
+Then User enters valid username and Password
+And Clicks on Login
+Then user should land on EnterBugPage 

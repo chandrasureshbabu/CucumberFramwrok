@@ -1,3 +1,4 @@
+C:\Users\chand\Selenium WorkSpace\framework\src\test\java\Pageobjects\InvalidUsernameOrPasswordPage.java
 C:\Users\chand\Selenium WorkSpace\framework\src\test\java\CucumberOptions\TestNGTestRunner.java
 C:\Users\chand\Selenium WorkSpace\framework\src\test\java\Steps\WelcomeToBugZillaPageSteps.java
 C:\Users\chand\Selenium WorkSpace\framework\src\test\java\Managers\PageObjectManager.java
@@ -13,4 +14,5 @@ C:\Users\chand\Selenium WorkSpace\framework\src\test\java\Utils\TestController.j
 C:\Users\chand\Selenium WorkSpace\framework\src\test\java\Pageobjects\HomePage.java
 C:\Users\chand\Selenium WorkSpace\framework\src\test\java\Utils\GenericUtils.java
 C:\Users\chand\Selenium WorkSpace\framework\src\test\java\CucumberOptions\TestRunner.java
+C:\Users\chand\Selenium WorkSpace\framework\src\test\java\Steps\InvalidUsernameOrPasswordPageSteps.java
 C:\Users\chand\Selenium WorkSpace\framework\src\test\java\Steps\Hooks.java

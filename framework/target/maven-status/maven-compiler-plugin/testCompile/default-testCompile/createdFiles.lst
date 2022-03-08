@@ -3,7 +3,9 @@ CucumberOptions\TestNGTestRunner.class
 Pageobjects\EnterBugPage.class
 Steps\LoginpageSteps.class
 Utils\TestBase.class
+Steps\InvalidUsernameOrPasswordPageSteps.class
 CucumberOptions\FailedScenariosTestRunner.class
+Pageobjects\InvalidUsernameOrPasswordPage.class
 Managers\PageObjectManager.class
 CucumberOptions\TestRunner.class
 Utils\TestController.class

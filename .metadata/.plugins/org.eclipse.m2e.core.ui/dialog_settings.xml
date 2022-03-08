@@ -25,6 +25,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Cucumber"/>
 			<item value="Cucumber.framework"/>
 		</list>
 		<list key="groupId">
