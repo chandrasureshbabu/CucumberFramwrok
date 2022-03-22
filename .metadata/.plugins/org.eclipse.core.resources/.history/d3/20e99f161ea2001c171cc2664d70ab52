@@ -1,0 +1,15 @@
+package Steps;
+
+import Utils.TestController;
+
+public class AdditionalDetailsPageSteps {
+	
+	public TestController tc;
+	
+	
+	public AdditionalDetailsPageSteps(TestController tc)
+	{
+		this.tc=tc;
+	}
+
+}

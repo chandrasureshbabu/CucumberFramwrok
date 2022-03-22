@@ -1,0 +1,17 @@
+package Pageobjects;
+
+import org.openqa.selenium.WebDriver;
+
+public class AdditionalDetailsPage {
+
+	
+	public WebDriver driver;
+	
+	
+	public AdditionalDetailsPage(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	
+}

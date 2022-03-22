@@ -1,0 +1,37 @@
+package Pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+public class ConfirmationPage {
+
+	
+	WebDriver driver;
+	
+	
+	public ConfirmationPage(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By ChangesSubmitted=By.xpath("//*[@id='bugzilla-body']/dl/dt");
+
+	
+	
+	public String  confirmationPagetitle()
+	{
+		String title=driver.getTitle();
+		return title;
+	}
+	
+	public void  changesSubmitted()
+	{
+		 String submmited=  driver.findElement(ChangesSubmitted).getText();
+		 
+		 if(submmited.contains("Changes submitted for "))
+		 {
+			 Assert.assertTrue(true, submmited);
+		 }
+	}
+}

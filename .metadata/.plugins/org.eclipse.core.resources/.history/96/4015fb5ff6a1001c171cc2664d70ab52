@@ -1,0 +1,104 @@
+package Pageobjects;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+public class EnterBugPage {
+	
+	public WebDriver driver;
+	
+	
+	public EnterBugPage(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By Logout= By.xpath("//*[@id='header']//descendant::ul[1]/li[11]/a");
+	
+	By Severity=By.id("bug_severity");
+	
+	By HardWare= By.id("rep_platform");
+	
+	By OS= By.id("op_sys");
+	
+	By Summary=By.name("short_desc");
+	
+	By Description=By.name("comment");
+	
+	By submit=By.id("maketemplate");
+	
+	public HomePage logout()
+	{
+		driver.findElement(Logout).click();
+		
+		return new HomePage(driver);
+	}
+	
+	public  boolean Logoutlinkdisplayed()
+	{
+		if(driver.findElement(Logout).isDisplayed())
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	
+	public void selectSeverity(String severity)
+	{
+		WebElement Bugseverity=driver.findElement(Severity);
+		Select select= new Select(Bugseverity);
+		
+		List<WebElement> severityOptions=select.getOptions();
+		
+		for(WebElement severityOption : severityOptions )
+		{
+			if(severityOption.getText().equals(severity))
+			{
+				select.selectByVisibleText(severity);
+			}
+		}
+	}
+	
+	
+	
+	public void selectHardWare(String hardware)
+	{
+		WebElement hrdware= driver.findElement(HardWare);
+		
+		Select select= new Select(hrdware);
+		
+		List<WebElement> hardwareoptions=select.getOptions();
+		
+		
+		for(WebElement hrdwareOption:hardwareoptions)
+		{
+			if(hrdwareOption.getText().equals(hardware))
+			{
+				select.selectByVisibleText(hardware);
+			}
+		}
+		
+	}
+	
+
+	
+	public void SelectOS(String os)
+	{
+		WebElement OperatingSys= driver.findElement(OS);
+		Select select= new Select(OperatingSys);
+		List<WebElement> OpSyss=select.getOptions();
+		
+		for(WebElement OpSys:OpSyss)
+		{
+			if(OpSys.getText().equals(os))
+			{
+				select.selectByVisibleText(os);
+			}
+		}
+	}
+}

@@ -24,8 +24,9 @@ public class Hooks {
 	}
 	
 	@After
-	public void AfterScenario() throws IOException
+	public void AfterScenario() throws IOException, InterruptedException
 	{
+		Thread.sleep(3000);
 		tc.testBase.webDriverManager().quit();
 	}
 	

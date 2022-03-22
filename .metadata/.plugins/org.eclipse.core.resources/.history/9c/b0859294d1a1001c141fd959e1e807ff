@@ -1,0 +1,26 @@
+Feature: Create a bug
+
+Background: Login to Bugzilla
+Given user is on Home page
+When user clicks on EnterBug link
+Then user lands on the Login page
+And user enters valid username and password
+And clicks on login
+Then user should land on EnterBugPage
+
+
+Scenario: Create a bloker
+Given user is on EnterBug page
+When user selects severity  as "blocker"
+And user Select Hardware "PC" and Operating System "Windows"
+And user Enter Summary "Summary" and Description  "Description"
+And Clicks Submit
+
+
+Scenario: Create a Critical
+Given user is on EnterBug page
+When user selects severity  as "critical"
+And user Select Hardware "PC" and Operating System "Windows"
+And user Enter Summary "Summary" and Description  "Description"
+And Clicks Submit
+

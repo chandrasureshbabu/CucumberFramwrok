@@ -1,0 +1,15 @@
+package Steps;
+
+import Utils.TestController;
+
+public class ConfirmationPageSteps {
+	
+	public TestController tc;
+	
+	
+	public ConfirmationPageSteps(TestController tc)
+	{
+		this.tc=tc;
+	}
+
+}

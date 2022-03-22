@@ -2,6 +2,8 @@ package Managers;
 
 import org.openqa.selenium.WebDriver;
 
+import Pageobjects.AdditionalDetailsPage;
+import Pageobjects.ConfirmationPage;
 import Pageobjects.EnterBugPage;
 import Pageobjects.HomePage;
 import Pageobjects.InvalidUsernameOrPasswordPage;
@@ -21,6 +23,10 @@ public class PageObjectManager {
 	public WelcomeToBugZillaPage welcomeToBugzillaPage;
 	
 	public InvalidUsernameOrPasswordPage invalidUsernameOrPasswordPage;
+	
+	public AdditionalDetailsPage addtionalDetailspage;
+	
+	public  ConfirmationPage confirmationPage;
 
 	
 	
@@ -74,6 +80,20 @@ public class PageObjectManager {
 		invalidUsernameOrPasswordPage = new InvalidUsernameOrPasswordPage(driver);
 		
 		return invalidUsernameOrPasswordPage;
+	}
+	
+	public ConfirmationPage  getConfirmationPage()
+	{
+		confirmationPage= new ConfirmationPage(driver);
+		return confirmationPage;
+	}
+	
+	public AdditionalDetailsPage getAdditionalDetailsPage()
+	{
+		
+		addtionalDetailspage= new AdditionalDetailsPage(driver);
+		return addtionalDetailspage;
+		
 	}
 
 

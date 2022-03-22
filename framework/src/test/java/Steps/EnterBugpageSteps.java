@@ -1,11 +1,13 @@
 package Steps;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.junit.Assert;
 
-import Pageobjects.EnterBugPage;
 import Utils.TestController;
+import io.cucumber.java.PendingException;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class EnterBugpageSteps {
 	
@@ -46,5 +48,45 @@ public class EnterBugpageSteps {
 		   tc.dc.getEnterBugPage().logout();
 	   }
 	}
+	
+	@And("^user is on EnterBug page \"([^\"]*)\"$")
+    public void user_is_on_enterbug_page_something(String pagetitle) throws Throwable {
+        String title=tc.dc.getEnterBugPage().getBugpageTtitle().trim();
+        if(title.contains(pagetitle))
+        {
+        	Assert.assertTrue(pagetitle, true);
+        	System.out.println("---expected---------"+pagetitle);
+        }else
+        {
+        	//Assert.assertFalse(false);
+        	System.out.println("---Atual title of page is :------"+title);
+        }
+        
+    }
+
+	 	@Given("^user selects severity  as \"([^\"]*)\"$")
+	    public void user_selects_severity_as_something(String severity) throws Throwable {
+	 		
+	 		Thread.sleep(3000);
+	        tc.dc.getEnterBugPage().selectSeverity(severity);
+	    }
+
+	    @And("^user Select Hardware \"([^\"]*)\" and Operating System \"([^\"]*)\"$")
+	    public void user_select_hardware_something_and_operating_system_something(String hardware, String Os) throws Throwable {
+	        tc.dc.getEnterBugPage().selectHardWare(hardware);
+	        tc.dc.getEnterBugPage().SelectOS(Os);
+	    }
+
+	    @And("^user Enter Summary \"([^\"]*)\" and Description  \"([^\"]*)\"$")
+	    public void user_enter_summary_something_and_description_something(String summary, String desc) throws Throwable {
+	        tc.dc.getEnterBugPage().enterBugSummary(summary);
+	        tc.dc.getEnterBugPage().enterBugDescription(desc);
+	    }
+
+	    @And("^Clicks Submit$")
+	    public void clicks_submit() throws Throwable {
+	        tc.dc.getEnterBugPage().ClickSubmit();
+	    }
+
 
 }

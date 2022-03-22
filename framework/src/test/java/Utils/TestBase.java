@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -40,12 +41,15 @@ public class TestBase {
 				{		
 					System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\src\\test\\resources\\chromedriver.exe");
 					driver= new ChromeDriver();
+					driver.manage().window().maximize();
 					
 				}
 			if(browser.equalsIgnoreCase("firefox"))
 				{
 				System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+ "\\src\\test\\resources\\geckodriver.exe");
 				driver= new FirefoxDriver();
+				driver.manage().window().maximize();
+				
 				}
 			
 			if(browser.equalsIgnoreCase("edge"))
